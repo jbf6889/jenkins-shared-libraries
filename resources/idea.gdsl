@@ -25,6 +25,7 @@ contributor(ctx) {
   method(name: 'milestone', type: 'Object', params: [ordinal:'java.lang.Integer'], doc: 'The milestone step forces all builds to go through in order')
   method(name: 'milestone', type: 'Object', namedParams: [parameter(name: 'ordinal', type: 'java.lang.Integer'), parameter(name: 'label', type: 'java.lang.String'), ], doc: 'The milestone step forces all builds to go through in order')
   method(name: 'node', type: 'Object', params: [label:java.lang.String, body:'Closure'], doc: 'Allocate node')
+  method(name: 'node', type: 'Object', params: [body:'Closure'], doc: 'Allocate node')
   method(name: 'properties', type: 'Object', params: [properties:'Map'], doc: 'Set job properties')
   method(name: 'readJSON', type: 'Object', params: [:], doc: 'Read JSON from files in the workspace.')
   method(name: 'readJSON', type: 'Object', namedParams: [parameter(name: 'file', type: 'java.lang.String'), parameter(name: 'text', type: 'java.lang.String'), ], doc: 'Read JSON from files in the workspace.')
