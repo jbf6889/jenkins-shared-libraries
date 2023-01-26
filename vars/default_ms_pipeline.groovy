@@ -11,7 +11,7 @@ void call(Closure body) {
     body.delegate = env; body()
 
     node('print env') {
-        sh 'printenv'
+        sh 'env'
     }
 
 
